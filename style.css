@@ -44,6 +44,14 @@ img {
   gap: 20px;
 }
 
+.menu-active{
+
+}
+
+.hidden{
+  display: none;
+}
+
 .menu{
   width: 232px;
   height: 634px;
