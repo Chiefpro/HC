@@ -319,6 +319,13 @@ align-items: center;
   gap: 10px;
   margin-bottom: 70px;
 }
+
+.body_2_button:hover{
+  color: #fff;
+  border-color: #fff;
+  background: #ff6a6a;
+}
+
 .body_2_button_top {
   display: flex;
   justify-content: center;
@@ -530,6 +537,8 @@ fill:#FFF;
 fill:#f16d7f;
 
 }
+
+
 /* -------------------------------------------------------------------------
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------- */
