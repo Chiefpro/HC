@@ -255,12 +255,29 @@ align-items: center;
   
 }
 
-.body_2_ban_img:hover::after {
-  background: rgba(58, 56, 56, 0.86);
-  width: 360px;
-  height: 420px;
+.body_2_ban_img:hover {
+ 
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.body_2_ban_img:hover::before{
+   
+    content: "😀";
+  
+  
   position: absolute;
-  margin-left: -360px
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 49px;
+  background-color: #764abc;
+  border-style: solid;
+  border-width: 3px;
+  border: #f16d7f;
   
 }
 
